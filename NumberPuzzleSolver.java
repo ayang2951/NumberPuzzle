@@ -1,5 +1,3 @@
-package project4;
-
 /**
  * This class displays all possible solutions to a 1 dimension number puzzle 
  * in which a player can move to the left or right the number of spaces their current position 
