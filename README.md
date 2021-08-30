@@ -10,3 +10,5 @@ A number puzzle (with certain requirements) is given to the program through the 
 Here is an example of the game:
 
 If the list: "4 7 1 4 2 5 0" is fed through the command line, the number puzzle is a 7 position long puzzle with the respective allowed moves. The player, begninning at the number 4, can only move 4 places to the right, since moving to the left is invalid. The player then lands on the number 2. Here, to move backwards to the left is legitimate, but it results in no possible solution. Moving to the right 2 positions results in the player landing on the last number, a 0, which is a winning move.
+
+The results are printed in a series of lines enclosed by brackets. One single possible solution is printed as a block of these lines (meaning that, when there is a space, it indicates the end of a solution and the beginning of the next). The lines in each solution describe the specific move the player should make. Exactly one of the numbers in the puzzle in each line will have a "R" or "L" character to the left, which indicates the current position of the player, and the direction and number of the next move. The order of the solutions is not significant. 
